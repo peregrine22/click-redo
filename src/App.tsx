@@ -35,9 +35,9 @@ function App() {
         redo
       </button>
       <div className="app" onClick={handlePlaceCircle}>
-        {points.map((point) => (
+        {points.map((point, index) => (
           <div
-            key={Math.random() * 1000000}
+            key={index}
             className="circle"
             style={{ top: point.y, left: point.x }}
           />
