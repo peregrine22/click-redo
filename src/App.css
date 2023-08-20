@@ -1,0 +1,17 @@
+#root {
+  margin: 0;
+}
+
+.app {
+  height: 100vh;
+  width: 100%;
+}
+
+.circle {
+  display: inline-block;
+  position: absolute;
+  width: 20px; /* Double the radius to set the diameter */
+  height: 20px; /* Double the radius to set the diameter */
+  background-color: #76fd81;
+  border-radius: 50%; /* Makes the element a circle */
+}
